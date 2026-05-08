@@ -19,7 +19,7 @@ import { format, differenceInDays, parseISO } from 'date-fns';
 import { ptBR } from 'date-fns/locale';
 import { clsx, type ClassValue } from 'clsx';
 import { twMerge } from 'tailwind-merge';
-import { supabase } from './lib/supabase';
+import { supabase } from './supabase';
 
 // Utility for Tailwind classes
 function cn(...inputs: ClassValue[]) {
